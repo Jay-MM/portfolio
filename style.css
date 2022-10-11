@@ -1,0 +1,9 @@
+*{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin: 20px;
+padding: 15px;
+}
+
+#grad {
+    background-image: linear-gradient(rgb(102, 81, 142), rgb(166, 163, 172));
+  }
