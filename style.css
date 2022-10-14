@@ -2,7 +2,7 @@
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#grad {
+body{
     background-image: linear-gradient(rgb(102, 81, 142), rgb(166, 163, 172));
   }
 
@@ -23,9 +23,5 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     .img-with-text {
         text-align: justify;
     }
-.img {
-}
-
-    
     
     
