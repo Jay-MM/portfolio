@@ -1,19 +1,55 @@
 *{
+box-sizing: border-box;
+margin: 0;
+padding: 0;;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: black;
 }
 
 body{
-    background-image: linear-gradient(rgb(102, 81, 142), rgb(166, 163, 172));
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(1, 26, 58));
+    
   }
 
-  
-  .nav {
-    background-color: aliceblue;
+
+
+  header {
+    display: flex;
+    justify-content: space-between ;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: rgb(110, 182, 246);
+    
+}
+
+#myusername {
+    box-shadow:4px 4px 4px 4px rgb(0, 0, 0);
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color:rgb(49, 52, 56)
+}
+
+    .nav {
+    display: flex;
+    flex-wrap: wrap;
+    column-count: 3;
+    column-gap: 40px;
     font-size: 15px;
-    margin: 0px 0px 30px 0px;
+    margin: 0px 0px 15px 0px;
     padding:0px;
-    columns: 4;
-      
+
+}
+
+
+.nav a:hover {
+    background-color: rgb(114, 171, 158);
+    color: rgb(1, 102, 68);
+    border-radius: 10px;
+}
+
+
+    #nav-text {
+        color: rgb(49, 52, 56);
     }
 
     #prework-studyguide {
